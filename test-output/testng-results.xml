@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6037" started-at="2017-01-31T20:31:32Z" finished-at="2017-01-31T20:31:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6037" started-at="2017-01-31T20:31:32Z" finished-at="2017-01-31T20:31:38Z">
+      <class name="com.SimpleMaven.com.SimpleMaven.AppTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.SimpleMaven.com.SimpleMaven.AppTest@1bce4f0a]" name="initiate" is-config="true" duration-ms="4460" started-at="2017-02-01T02:01:32Z" finished-at="2017-02-01T02:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.SimpleMaven.com.SimpleMaven.AppTest@1bce4f0a]" name="run" duration-ms="1527" started-at="2017-02-01T02:01:37Z" finished-at="2017-02-01T02:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.SimpleMaven.com.SimpleMaven.AppTest@1bce4f0a]" name="Close" is-config="true" duration-ms="0" started-at="2017-02-01T02:01:38Z" finished-at="2017-02-01T02:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.SimpleMaven.com.SimpleMaven.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
