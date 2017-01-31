@@ -17,7 +17,7 @@ public class AppTest {
 	public void initiate() {
 		System.setProperty("webdriver.gecko.driver", "D:\\JavaWorkSpace\\SimpleMaven\\src\\ExecutableFiles\\geckodriver.exe");
 		driver = new MarionetteDriver();
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 
@@ -25,10 +25,11 @@ public class AppTest {
 	public void run() {
 
 		driver.get("https://www.google.co.in");
+		System.out.println(driver.getTitle());
 	}
 
 	@AfterTest
 	public void Close() {
-		// driver.close();
+		 driver.close();
 	}
 }
