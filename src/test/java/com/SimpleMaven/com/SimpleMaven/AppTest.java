@@ -30,6 +30,6 @@ public class AppTest {
 
 	@AfterTest
 	public void Close() {
-// 		 driver.close();
+ 		 driver.close();
 	}
 }
